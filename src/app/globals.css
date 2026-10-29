@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-primary: #0B0908;
+    --bg-surface: #140F0D;
+    --bg-surface-elevated: #1C1512;
+    --bg-card: #181310;
+    --copper-primary: #B47A4B;
+    --bronze-light: #D7A574;
+    --bronze-accent: #E5BE97;
+    --off-white: #F6F3EE;
+    --text-muted: #9A928B;
+    --border-bronze: rgba(215, 165, 116, 0.18);
+  }
+
+  body {
+    background-color: var(--bg-primary);
+    color: var(--off-white);
+    font-family: 'Gotham', 'Montserrat', var(--font-montserrat), system-ui, -apple-system, sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0B0908;
+}
+::-webkit-scrollbar-thumb {
+  background: #2E221C;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B47A4B;
+}
+
+/* Metallic text gradients */
+.text-bronze-gradient {
+  background: linear-gradient(135deg, #ECC8A4 0%, #D7A574 45%, #B47A4B 80%, #945B2F 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gold-subtle {
+  background: linear-gradient(180deg, #FFFFFF 20%, #D7A574 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-bronze-gradient {
+  background: linear-gradient(135deg, #C58B5C 0%, #B47A4B 50%, #93582E 100%);
+}
+
+.bg-bronze-gradient:hover {
+  background: linear-gradient(135deg, #D7A574 0%, #C58B5C 50%, #A26537 100%);
+}
+
+/* Shimmer on hover */
+.shimmer-hover {
+  position: relative;
+  overflow: hidden;
+}
+.shimmer-hover::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -60%;
+  width: 20%;
+  height: 200%;
+  background: linear-gradient(
+    60deg,
+    rgba(255, 255, 255, 0) 20%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0) 80%
+  );
+  transform: rotate(25deg);
+  transition: none;
+}
+.shimmer-hover:hover::after {
+  left: 140%;
+  transition: all 0.8s ease-in-out;
+}
+
+/* Editorial line separator */
+.editorial-separator {
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, rgba(215, 165, 116, 0.3) 50%, transparent 100%);
+}

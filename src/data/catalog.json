@@ -1,0 +1,786 @@
+{
+  "store": {
+    "name": "BRADAN CONCEITO",
+    "slogan": "O essencial não precisa ser comum.",
+    "description": "Moda masculina contemporânea, elegância atemporal e curadoria de alto padrão.",
+    "whatsapp": "5562999999999",
+    "whatsappDisplay": "(62) 99999-9999",
+    "instagram": "@bradanconceito",
+    "location": "Atendimento e envios para todo o Brasil",
+    "schedule": "Segunda a Sábado, das 09h às 19h"
+  },
+  "categories": [
+    {
+      "name": "Bonés",
+      "slug": "bones",
+      "description": "Acessórios masculinos com acabamento premium e marcas consagradas.",
+      "heroText": "Design refinado e assinatura exclusiva em acessórios de alto padrão.",
+      "coverImage": "/catalog/bones/bone-polo-ralph-lauren.jpg",
+      "productCount": 1
+    },
+    {
+      "name": "Calçados",
+      "slug": "calcados",
+      "description": "Calçados masculinos sofisticados, de loafers em couro a tênis casuais refinados.",
+      "heroText": "Passo a passo com elegância, conforto estruturado e presença marcante.",
+      "coverImage": "/catalog/calcados/crocss.jpg",
+      "productCount": 10
+    },
+    {
+      "name": "Calças",
+      "slug": "calcas",
+      "description": "Calças jeans e alfaiataria contemporânea com caimento e lavagem impecáveis.",
+      "heroText": "Caimento impecável e tecidos selecionados para uma silhueta alinhada.",
+      "coverImage": "/catalog/calcas/calca-jeans-jogador.jpg",
+      "productCount": 2
+    },
+    {
+      "name": "Camisas Gola Careca",
+      "slug": "camisas-gola-careca",
+      "description": "Camisetas casuais refinadas em algodão nobre das marcas mais desejadas.",
+      "heroText": "Minimalismo essencial com toque premium e sofisticação no dia a dia.",
+      "coverImage": "/catalog/camisas-gola-careca/camisetas-casuais-fred-perry.jpg",
+      "productCount": 6
+    },
+    {
+      "name": "Camisas Polo",
+      "slug": "camisas-polo",
+      "description": "Polos com texturas exclusivas, golas estruturadas e elegância atemporal.",
+      "heroText": "A clássica alfaiataria casual masculina reinventada em detalhes premium.",
+      "coverImage": "/catalog/camisas-polo/polo-aramis-1.jpg",
+      "productCount": 2
+    },
+    {
+      "name": "Camisas Poliamida",
+      "slug": "camisas-poliamida",
+      "description": "Tecnologia têxtil com toque gelado, secagem rápida e caimento atlético superior.",
+      "heroText": "Inovação e alto desempenho em fibras nobres de poliamida.",
+      "coverImage": "/catalog/camisas-poliamida/polo-tecnologica.jpg",
+      "productCount": 1
+    },
+    {
+      "name": "Camisas Zara",
+      "slug": "camisas-zara",
+      "description": "Camisetas básicas e estruturadas com apelo contemporâneo e toque aveludado.",
+      "heroText": "O corte moderno e versátil que eleva composições masculinas.",
+      "coverImage": "/catalog/camisas-zara/zara-basicas.jpg",
+      "productCount": 1
+    },
+    {
+      "name": "Cuecas Poliamida",
+      "slug": "cuecas-poliamida",
+      "description": "Cuecas boxer confeccionadas em poliamida respirável de marcas de luxo.",
+      "heroText": "Máximo conforto anatômico, respirabilidade e acabamento nobre.",
+      "coverImage": "/catalog/cuecas-poliamida/armani.jpg",
+      "productCount": 2
+    },
+    {
+      "name": "Mauricinho & Shorts",
+      "slug": "mauricinho",
+      "description": "Bermudas e shorts de sarja e banho com corte refinado e estética veraneio chic.",
+      "heroText": "Estilo descontraído com caimento nobre para momentos de lazer e descanso.",
+      "coverImage": "/catalog/mauricinho/shorts-casual-de-sarja-aramis.jpg",
+      "productCount": 4
+    },
+    {
+      "name": "Perfumes Importados",
+      "slug": "perfumes-importados",
+      "description": "Fragrâncias árabes e importadas com projeção marcante e matérias-primas raras.",
+      "heroText": "Presença olfativa inesquecível com acordes nobres e alta fixação.",
+      "coverImage": "/catalog/perfumes-importados/brand-collection.jpg",
+      "productCount": 3
+    }
+  ],
+  "products": [
+    {
+      "id": "prod_bones_1",
+      "name": "Boné Polo Ralph Lauren",
+      "slug": "bone-polo-ralph-lauren",
+      "category": "Bonés",
+      "categorySlug": "bones",
+      "mainImage": "/catalog/bones/bone-polo-ralph-lauren.jpg",
+      "images": [
+        "/catalog/bones/bone-polo-ralph-lauren.jpg"
+      ],
+      "price": null,
+      "priceDisplay": "Consultar valor",
+      "brand": "Ralph Lauren",
+      "inStock": true,
+      "description": "Peça selecionada com padrão de qualidade e elegância BRADAN CONCEITO. Acabamento primoroso e materiais selecionados para presença e sofisticação no guarda-roupa masculino.",
+      "tags": [
+        "Bonés",
+        "Ralph Lauren"
+      ],
+      "createdAt": "2026-10-29T01:48:41.104Z"
+    },
+    {
+      "id": "prod_calcados_1",
+      "name": "Chinelo Crocs Slide",
+      "slug": "chinelo-crocs",
+      "category": "Calçados",
+      "categorySlug": "calcados",
+      "mainImage": "/catalog/calcados/crocss.jpg",
+      "images": [
+        "/catalog/calcados/crocss.jpg",
+        "/catalog/calcados/crocss-2.jpg"
+      ],
+      "price": null,
+      "priceDisplay": "Consultar valor",
+      "brand": "Crocs",
+      "inStock": true,
+      "description": "Peça selecionada com padrão de qualidade e elegância BRADAN CONCEITO. Acabamento primoroso e materiais selecionados para presença e sofisticação no guarda-roupa masculino.",
+      "tags": [
+        "Calçados",
+        "Crocs"
+      ],
+      "createdAt": "2026-10-29T01:48:41.267Z"
+    },
+    {
+      "id": "prod_calcados_2",
+      "name": "Loafer Marrom",
+      "slug": "loafer-marrom",
+      "category": "Calçados",
+      "categorySlug": "calcados",
+      "mainImage": "/catalog/calcados/loafer-marrom.jpg",
+      "images": [
+        "/catalog/calcados/loafer-marrom.jpg"
+      ],
+      "price": null,
+      "priceDisplay": "Consultar valor",
+      "brand": "BRADAN Conceito",
+      "inStock": true,
+      "description": "Peça selecionada com padrão de qualidade e elegância BRADAN CONCEITO. Acabamento primoroso e materiais selecionados para presença e sofisticação no guarda-roupa masculino.",
+      "tags": [
+        "Calçados",
+        "BRADAN Conceito"
+      ],
+      "createdAt": "2026-10-29T01:48:41.267Z"
+    },
+    {
+      "id": "prod_calcados_3",
+      "name": "Loafer Masculino Preto",
+      "slug": "loafer-masculino-preto",
+      "category": "Calçados",
+      "categorySlug": "calcados",
+      "mainImage": "/catalog/calcados/loafer-masculino-preto.jpg",
+      "images": [
+        "/catalog/calcados/loafer-masculino-preto.jpg"
+      ],
+      "price": null,
+      "priceDisplay": "Consultar valor",
+      "brand": "BRADAN Conceito",
+      "inStock": true,
+      "description": "Peça selecionada com padrão de qualidade e elegância BRADAN CONCEITO. Acabamento primoroso e materiais selecionados para presença e sofisticação no guarda-roupa masculino.",
+      "tags": [
+        "Calçados",
+        "BRADAN Conceito"
+      ],
+      "createdAt": "2026-10-29T01:48:41.267Z"
+    },
+    {
+      "id": "prod_calcados_4",
+      "name": "Loafer Preto Solado Tratorado",
+      "slug": "loafer-preto-solado-tratorado",
+      "category": "Calçados",
+      "categorySlug": "calcados",
+      "mainImage": "/catalog/calcados/loafer-preto-solado-tratorado.jpg",
+      "images": [
+        "/catalog/calcados/loafer-preto-solado-tratorado.jpg"
+      ],
+      "price": null,
+      "priceDisplay": "Consultar valor",
+      "brand": "BRADAN Conceito",
+      "inStock": true,
+      "description": "Peça selecionada com padrão de qualidade e elegância BRADAN CONCEITO. Acabamento primoroso e materiais selecionados para presença e sofisticação no guarda-roupa masculino.",
+      "tags": [
+        "Calçados",
+        "BRADAN Conceito"
+      ],
+      "createdAt": "2026-10-29T01:48:41.267Z"
+    },
+    {
+      "id": "prod_calcados_5",
+      "name": "Sapatilha Slip-on",
+      "slug": "sapatilha-slip-on",
+      "category": "Calçados",
+      "categorySlug": "calcados",
+      "mainImage": "/catalog/calcados/sapatilha-slip-on.jpg",
+      "images": [
+        "/catalog/calcados/sapatilha-slip-on.jpg"
+      ],
+      "price": null,
+      "priceDisplay": "Consultar valor",
+      "brand": "BRADAN Conceito",
+      "inStock": true,
+      "description": "Peça selecionada com padrão de qualidade e elegância BRADAN CONCEITO. Acabamento primoroso e materiais selecionados para presença e sofisticação no guarda-roupa masculino.",
+      "tags": [
+        "Calçados",
+        "BRADAN Conceito"
+      ],
+      "createdAt": "2026-10-29T01:48:41.267Z"
+    },
+    {
+      "id": "prod_calcados_6",
+      "name": "Tênis Casual Armani Exchange",
+      "slug": "tenis-armani-exchange",
+      "category": "Calçados",
+      "categorySlug": "calcados",
+      "mainImage": "/catalog/calcados/tenis-armani-exchange.jpg",
+      "images": [
+        "/catalog/calcados/tenis-armani-exchange.jpg",
+        "/catalog/calcados/tenis-armani-exchange-2.jpg"
+      ],
+      "price": null,
+      "priceDisplay": "Consultar valor",
+      "brand": "Emporio Armani",
+      "inStock": true,
+      "description": "Peça selecionada com padrão de qualidade e elegância BRADAN CONCEITO. Acabamento primoroso e materiais selecionados para presença e sofisticação no guarda-roupa masculino.",
+      "tags": [
+        "Calçados",
+        "Emporio Armani"
+      ],
+      "createdAt": "2026-10-29T01:48:41.267Z"
+    },
+    {
+      "id": "prod_calcados_7",
+      "name": "Tênis Casual Cano Alto",
+      "slug": "tenis-casual-cano-alto",
+      "category": "Calçados",
+      "categorySlug": "calcados",
+      "mainImage": "/catalog/calcados/tenis-casual-cano-alto.jpg",
+      "images": [
+        "/catalog/calcados/tenis-casual-cano-alto.jpg"
+      ],
+      "price": null,
+      "priceDisplay": "Consultar valor",
+      "brand": "BRADAN Conceito",
+      "inStock": true,
+      "description": "Peça selecionada com padrão de qualidade e elegância BRADAN CONCEITO. Acabamento primoroso e materiais selecionados para presença e sofisticação no guarda-roupa masculino.",
+      "tags": [
+        "Calçados",
+        "BRADAN Conceito"
+      ],
+      "createdAt": "2026-10-29T01:48:41.267Z"
+    },
+    {
+      "id": "prod_calcados_8",
+      "name": "Tênis Casual Masculino Marrom com Solado Bege",
+      "slug": "tenis-casual-masculino-marrom-com-solado-bege",
+      "category": "Calçados",
+      "categorySlug": "calcados",
+      "mainImage": "/catalog/calcados/tenis-casual-masculino-marrom-com-solado-bege.jpg",
+      "images": [
+        "/catalog/calcados/tenis-casual-masculino-marrom-com-solado-bege.jpg"
+      ],
+      "price": null,
+      "priceDisplay": "Consultar valor",
+      "brand": "BRADAN Conceito",
+      "inStock": true,
+      "description": "Peça selecionada com padrão de qualidade e elegância BRADAN CONCEITO. Acabamento primoroso e materiais selecionados para presença e sofisticação no guarda-roupa masculino.",
+      "tags": [
+        "Calçados",
+        "BRADAN Conceito"
+      ],
+      "createdAt": "2026-10-29T01:48:41.267Z"
+    },
+    {
+      "id": "prod_calcados_9",
+      "name": "Tênis Casual",
+      "slug": "tenis-casual",
+      "category": "Calçados",
+      "categorySlug": "calcados",
+      "mainImage": "/catalog/calcados/tenis-casual.jpg",
+      "images": [
+        "/catalog/calcados/tenis-casual.jpg"
+      ],
+      "price": null,
+      "priceDisplay": "Consultar valor",
+      "brand": "BRADAN Conceito",
+      "inStock": true,
+      "description": "Peça selecionada com padrão de qualidade e elegância BRADAN CONCEITO. Acabamento primoroso e materiais selecionados para presença e sofisticação no guarda-roupa masculino.",
+      "tags": [
+        "Calçados",
+        "BRADAN Conceito"
+      ],
+      "createdAt": "2026-10-29T01:48:41.267Z"
+    },
+    {
+      "id": "prod_calcados_10",
+      "name": "Tênis Casual Branco Premium em Couro",
+      "slug": "tenis-casual-branco-premium",
+      "category": "Calçados",
+      "categorySlug": "calcados",
+      "mainImage": "/catalog/calcados/tenis-casual-branco-premium.jpg",
+      "images": [
+        "/catalog/calcados/tenis-casual-branco-premium.jpg"
+      ],
+      "price": null,
+      "priceDisplay": "Consultar valor",
+      "brand": "BRADAN Conceito",
+      "inStock": true,
+      "description": "Peça selecionada com padrão de qualidade e elegância BRADAN CONCEITO. Acabamento primoroso e materiais selecionados para presença e sofisticação no guarda-roupa masculino.",
+      "tags": [
+        "Calçados",
+        "BRADAN Conceito"
+      ],
+      "createdAt": "2026-10-29T01:48:41.267Z"
+    },
+    {
+      "id": "prod_calcas_1",
+      "name": "Calça Jeans Jogador",
+      "slug": "calca-jeans-jogador",
+      "category": "Calças",
+      "categorySlug": "calcas",
+      "mainImage": "/catalog/calcas/calca-jeans-jogador.jpg",
+      "images": [
+        "/catalog/calcas/calca-jeans-jogador.jpg"
+      ],
+      "price": null,
+      "priceDisplay": "Consultar valor",
+      "brand": "BRADAN Conceito",
+      "inStock": true,
+      "description": "Peça selecionada com padrão de qualidade e elegância BRADAN CONCEITO. Acabamento primoroso e materiais selecionados para presença e sofisticação no guarda-roupa masculino.",
+      "tags": [
+        "Calças",
+        "BRADAN Conceito"
+      ],
+      "createdAt": "2026-10-29T01:48:41.272Z"
+    },
+    {
+      "id": "prod_calcas_2",
+      "name": "Calça Jeans Premium",
+      "slug": "calca-jeans-premium",
+      "category": "Calças",
+      "categorySlug": "calcas",
+      "mainImage": "/catalog/calcas/calca-jeans-premium.jpg",
+      "images": [
+        "/catalog/calcas/calca-jeans-premium.jpg"
+      ],
+      "price": null,
+      "priceDisplay": "Consultar valor",
+      "brand": "BRADAN Conceito",
+      "inStock": true,
+      "description": "Peça selecionada com padrão de qualidade e elegância BRADAN CONCEITO. Acabamento primoroso e materiais selecionados para presença e sofisticação no guarda-roupa masculino.",
+      "tags": [
+        "Calças",
+        "BRADAN Conceito"
+      ],
+      "createdAt": "2026-10-29T01:48:41.272Z"
+    },
+    {
+      "id": "prod_camisas-gola-careca_1",
+      "name": "Camisetas Casuais Fred Perry com Fita",
+      "slug": "camisetas-casuais-fred-perry",
+      "category": "Camisas Gola Careca",
+      "categorySlug": "camisas-gola-careca",
+      "mainImage": "/catalog/camisas-gola-careca/camisetas-casuais-fred-perry.jpg",
+      "images": [
+        "/catalog/camisas-gola-careca/camisetas-casuais-fred-perry.jpg",
+        "/catalog/camisas-gola-careca/casuais-fred-perry.jpg"
+      ],
+      "price": null,
+      "priceDisplay": "Consultar valor",
+      "brand": "Fred Perry",
+      "inStock": true,
+      "description": "Peça selecionada com padrão de qualidade e elegância BRADAN CONCEITO. Acabamento primoroso e materiais selecionados para presença e sofisticação no guarda-roupa masculino.",
+      "tags": [
+        "Camisas Gola Careca",
+        "Fred Perry"
+      ],
+      "createdAt": "2026-10-29T01:48:41.290Z"
+    },
+    {
+      "id": "prod_camisas-gola-careca_2",
+      "name": "Camisetas Casuais Aramis",
+      "slug": "camisetas-casuais-aramis",
+      "category": "Camisas Gola Careca",
+      "categorySlug": "camisas-gola-careca",
+      "mainImage": "/catalog/camisas-gola-careca/casuais-aramis.jpg",
+      "images": [
+        "/catalog/camisas-gola-careca/casuais-aramis.jpg"
+      ],
+      "price": null,
+      "priceDisplay": "Consultar valor",
+      "brand": "Aramis",
+      "inStock": true,
+      "description": "Peça selecionada com padrão de qualidade e elegância BRADAN CONCEITO. Acabamento primoroso e materiais selecionados para presença e sofisticação no guarda-roupa masculino.",
+      "tags": [
+        "Camisas Gola Careca",
+        "Aramis"
+      ],
+      "createdAt": "2026-10-29T01:48:41.290Z"
+    },
+    {
+      "id": "prod_camisas-gola-careca_3",
+      "name": "Camisetas Casuais Ralph Lauren",
+      "slug": "camisetas-casuais-ralph-lauren",
+      "category": "Camisas Gola Careca",
+      "categorySlug": "camisas-gola-careca",
+      "mainImage": "/catalog/camisas-gola-careca/casuais-ralph-lauren-1.jpg",
+      "images": [
+        "/catalog/camisas-gola-careca/casuais-ralph-lauren-1.jpg",
+        "/catalog/camisas-gola-careca/casuais-ralph-lauren.jpg"
+      ],
+      "price": null,
+      "priceDisplay": "Consultar valor",
+      "brand": "Ralph Lauren",
+      "inStock": true,
+      "description": "Peça selecionada com padrão de qualidade e elegância BRADAN CONCEITO. Acabamento primoroso e materiais selecionados para presença e sofisticação no guarda-roupa masculino.",
+      "tags": [
+        "Camisas Gola Careca",
+        "Ralph Lauren"
+      ],
+      "createdAt": "2026-10-29T01:48:41.290Z"
+    },
+    {
+      "id": "prod_camisas-gola-careca_4",
+      "name": "Camiseta Básica Tommy Hilfiger",
+      "slug": "camiseta-basica-tommy-hilfiger",
+      "category": "Camisas Gola Careca",
+      "categorySlug": "camisas-gola-careca",
+      "mainImage": "/catalog/camisas-gola-careca/tommy-hilfiger.jpg",
+      "images": [
+        "/catalog/camisas-gola-careca/tommy-hilfiger.jpg"
+      ],
+      "price": null,
+      "priceDisplay": "Consultar valor",
+      "brand": "Tommy Hilfiger",
+      "inStock": true,
+      "description": "Peça selecionada com padrão de qualidade e elegância BRADAN CONCEITO. Acabamento primoroso e materiais selecionados para presença e sofisticação no guarda-roupa masculino.",
+      "tags": [
+        "Camisas Gola Careca",
+        "Tommy Hilfiger"
+      ],
+      "createdAt": "2026-10-29T01:48:41.290Z"
+    },
+    {
+      "id": "prod_camisas-gola-careca_5",
+      "name": "Camiseta Tommy Hilfiger Faixa Central",
+      "slug": "camiseta-tommy-hilfiger-faixa",
+      "category": "Camisas Gola Careca",
+      "categorySlug": "camisas-gola-careca",
+      "mainImage": "/catalog/camisas-gola-careca/tommy.jpg",
+      "images": [
+        "/catalog/camisas-gola-careca/tommy.jpg"
+      ],
+      "price": null,
+      "priceDisplay": "Consultar valor",
+      "brand": "Tommy Hilfiger",
+      "inStock": true,
+      "description": "Peça selecionada com padrão de qualidade e elegância BRADAN CONCEITO. Acabamento primoroso e materiais selecionados para presença e sofisticação no guarda-roupa masculino.",
+      "tags": [
+        "Camisas Gola Careca",
+        "Tommy Hilfiger"
+      ],
+      "createdAt": "2026-10-29T01:48:41.290Z"
+    },
+    {
+      "id": "prod_camisas-gola-careca_6",
+      "name": "Camiseta Zara Gola Careca",
+      "slug": "camiseta-zara-gola-careca",
+      "category": "Camisas Gola Careca",
+      "categorySlug": "camisas-gola-careca",
+      "mainImage": "/catalog/camisas-gola-careca/zara.jpg",
+      "images": [
+        "/catalog/camisas-gola-careca/zara.jpg"
+      ],
+      "price": null,
+      "priceDisplay": "Consultar valor",
+      "brand": "Zara",
+      "inStock": true,
+      "description": "Peça selecionada com padrão de qualidade e elegância BRADAN CONCEITO. Acabamento primoroso e materiais selecionados para presença e sofisticação no guarda-roupa masculino.",
+      "tags": [
+        "Camisas Gola Careca",
+        "Zara"
+      ],
+      "createdAt": "2026-10-29T01:48:41.290Z"
+    },
+    {
+      "id": "prod_camisas-polo_1",
+      "name": "Camisa Polo Aramis Texturizada",
+      "slug": "camisa-polo-aramis-texturizada",
+      "category": "Camisas Polo",
+      "categorySlug": "camisas-polo",
+      "mainImage": "/catalog/camisas-polo/polo-aramis-1.jpg",
+      "images": [
+        "/catalog/camisas-polo/polo-aramis-1.jpg",
+        "/catalog/camisas-polo/polo-aramis-2.jpg",
+        "/catalog/camisas-polo/polo-aramis-3.jpg",
+        "/catalog/camisas-polo/polo-aramis-4.jpg",
+        "/catalog/camisas-polo/polo-aramis-5.jpg",
+        "/catalog/camisas-polo/polo-aramis.jpg"
+      ],
+      "price": null,
+      "priceDisplay": "Consultar valor",
+      "brand": "Aramis",
+      "inStock": true,
+      "description": "Peça selecionada com padrão de qualidade e elegância BRADAN CONCEITO. Acabamento primoroso e materiais selecionados para presença e sofisticação no guarda-roupa masculino.",
+      "tags": [
+        "Camisas Polo",
+        "Aramis"
+      ],
+      "createdAt": "2026-10-29T01:48:41.317Z"
+    },
+    {
+      "id": "prod_camisas-polo_2",
+      "name": "Camisa Polo Hugo Boss",
+      "slug": "polo-hugo-boss",
+      "category": "Camisas Polo",
+      "categorySlug": "camisas-polo",
+      "mainImage": "/catalog/camisas-polo/polo-hugo-boss.jpg",
+      "images": [
+        "/catalog/camisas-polo/polo-hugo-boss.jpg"
+      ],
+      "price": null,
+      "priceDisplay": "Consultar valor",
+      "brand": "Hugo Boss",
+      "inStock": true,
+      "description": "Peça selecionada com padrão de qualidade e elegância BRADAN CONCEITO. Acabamento primoroso e materiais selecionados para presença e sofisticação no guarda-roupa masculino.",
+      "tags": [
+        "Camisas Polo",
+        "Hugo Boss"
+      ],
+      "createdAt": "2026-10-29T01:48:41.317Z"
+    },
+    {
+      "id": "prod_camisas-poliamida_1",
+      "name": "Polo Tecnológica",
+      "slug": "polo-tecnologica",
+      "category": "Camisas Poliamida",
+      "categorySlug": "camisas-poliamida",
+      "mainImage": "/catalog/camisas-poliamida/polo-tecnologica.jpg",
+      "images": [
+        "/catalog/camisas-poliamida/polo-tecnologica.jpg"
+      ],
+      "price": null,
+      "priceDisplay": "Consultar valor",
+      "brand": "BRADAN Conceito",
+      "inStock": true,
+      "description": "Peça selecionada com padrão de qualidade e elegância BRADAN CONCEITO. Acabamento primoroso e materiais selecionados para presença e sofisticação no guarda-roupa masculino.",
+      "tags": [
+        "Camisas Poliamida",
+        "BRADAN Conceito"
+      ],
+      "createdAt": "2026-10-29T01:48:41.326Z"
+    },
+    {
+      "id": "prod_camisas-zara_1",
+      "name": "Camiseta Básica Zara Premium",
+      "slug": "camisa-zara-basica-premium",
+      "category": "Camisas Zara",
+      "categorySlug": "camisas-zara",
+      "mainImage": "/catalog/camisas-zara/zara-basicas.jpg",
+      "images": [
+        "/catalog/camisas-zara/zara-basicas.jpg",
+        "/catalog/camisas-zara/zara-basicas-2.jpg",
+        "/catalog/camisas-zara/zara-basica-1.jpg",
+        "/catalog/camisas-zara/zara-basica-2.jpg",
+        "/catalog/camisas-zara/zara-basica.jpg"
+      ],
+      "price": null,
+      "priceDisplay": "Consultar valor",
+      "brand": "Zara",
+      "inStock": true,
+      "description": "Peça selecionada com padrão de qualidade e elegância BRADAN CONCEITO. Acabamento primoroso e materiais selecionados para presença e sofisticação no guarda-roupa masculino.",
+      "tags": [
+        "Camisas Zara",
+        "Zara"
+      ],
+      "createdAt": "2026-10-29T01:48:41.336Z"
+    },
+    {
+      "id": "prod_cuecas-poliamida_1",
+      "name": "Cueca Boxer Poliamida Emporio Armani",
+      "slug": "cueca-boxer-poliamida-emporio-armani",
+      "category": "Cuecas Poliamida",
+      "categorySlug": "cuecas-poliamida",
+      "mainImage": "/catalog/cuecas-poliamida/armani.jpg",
+      "images": [
+        "/catalog/cuecas-poliamida/armani.jpg"
+      ],
+      "price": null,
+      "priceDisplay": "Consultar valor",
+      "brand": "Emporio Armani",
+      "inStock": true,
+      "description": "Peça selecionada com padrão de qualidade e elegância BRADAN CONCEITO. Acabamento primoroso e materiais selecionados para presença e sofisticação no guarda-roupa masculino.",
+      "tags": [
+        "Cuecas Poliamida",
+        "Emporio Armani"
+      ],
+      "createdAt": "2026-10-29T01:48:41.341Z"
+    },
+    {
+      "id": "prod_cuecas-poliamida_2",
+      "name": "Cueca Boxer Poliamida Hugo Boss",
+      "slug": "cueca-boxer-poliamida-hugo-boss",
+      "category": "Cuecas Poliamida",
+      "categorySlug": "cuecas-poliamida",
+      "mainImage": "/catalog/cuecas-poliamida/hugo-boss.jpg",
+      "images": [
+        "/catalog/cuecas-poliamida/hugo-boss.jpg"
+      ],
+      "price": null,
+      "priceDisplay": "Consultar valor",
+      "brand": "Hugo Boss",
+      "inStock": true,
+      "description": "Peça selecionada com padrão de qualidade e elegância BRADAN CONCEITO. Acabamento primoroso e materiais selecionados para presença e sofisticação no guarda-roupa masculino.",
+      "tags": [
+        "Cuecas Poliamida",
+        "Hugo Boss"
+      ],
+      "createdAt": "2026-10-29T01:48:41.341Z"
+    },
+    {
+      "id": "prod_mauricinho_1",
+      "name": "Shorts Casual de Sarja Aramis",
+      "slug": "shorts-casual-sarja-aramis",
+      "category": "Mauricinho & Shorts",
+      "categorySlug": "mauricinho",
+      "mainImage": "/catalog/mauricinho/shorts-casual-de-sarja-aramis.jpg",
+      "images": [
+        "/catalog/mauricinho/shorts-casual-de-sarja-aramis.jpg"
+      ],
+      "price": null,
+      "priceDisplay": "Consultar valor",
+      "brand": "Aramis",
+      "inStock": true,
+      "description": "Peça selecionada com padrão de qualidade e elegância BRADAN CONCEITO. Acabamento primoroso e materiais selecionados para presença e sofisticação no guarda-roupa masculino.",
+      "tags": [
+        "Mauricinho & Shorts",
+        "Aramis"
+      ],
+      "createdAt": "2026-10-29T01:48:41.373Z"
+    },
+    {
+      "id": "prod_mauricinho_2",
+      "name": "Shorts de Banho Masculino",
+      "slug": "shorts-de-banho-masculino",
+      "category": "Mauricinho & Shorts",
+      "categorySlug": "mauricinho",
+      "mainImage": "/catalog/mauricinho/shorts-de-banho-masculino-1.jpg",
+      "images": [
+        "/catalog/mauricinho/shorts-de-banho-masculino-1.jpg",
+        "/catalog/mauricinho/shorts-de-banho-masculino-2.jpg",
+        "/catalog/mauricinho/shorts-de-banho-masculino-3.jpg",
+        "/catalog/mauricinho/shorts-de-banho-masculino.jpg"
+      ],
+      "price": null,
+      "priceDisplay": "Consultar valor",
+      "brand": "BRADAN Conceito",
+      "inStock": true,
+      "description": "Peça selecionada com padrão de qualidade e elegância BRADAN CONCEITO. Acabamento primoroso e materiais selecionados para presença e sofisticação no guarda-roupa masculino.",
+      "tags": [
+        "Mauricinho & Shorts",
+        "BRADAN Conceito"
+      ],
+      "createdAt": "2026-10-29T01:48:41.373Z"
+    },
+    {
+      "id": "prod_mauricinho_3",
+      "name": "Shorts Masculino Casual de Sarja",
+      "slug": "shorts-masculino-casual-sarja",
+      "category": "Mauricinho & Shorts",
+      "categorySlug": "mauricinho",
+      "mainImage": "/catalog/mauricinho/shorts-masculino-casual-de-sarja-1.jpg",
+      "images": [
+        "/catalog/mauricinho/shorts-masculino-casual-de-sarja-1.jpg",
+        "/catalog/mauricinho/shorts-masculino-casual-de-sarja-2.jpg",
+        "/catalog/mauricinho/shorts-masculino-casual-de-sarja.jpg"
+      ],
+      "price": null,
+      "priceDisplay": "Consultar valor",
+      "brand": "BRADAN Conceito",
+      "inStock": true,
+      "description": "Peça selecionada com padrão de qualidade e elegância BRADAN CONCEITO. Acabamento primoroso e materiais selecionados para presença e sofisticação no guarda-roupa masculino.",
+      "tags": [
+        "Mauricinho & Shorts",
+        "BRADAN Conceito"
+      ],
+      "createdAt": "2026-10-29T01:48:41.373Z"
+    },
+    {
+      "id": "prod_mauricinho_4",
+      "name": "Shorts Tommy Hilfiger",
+      "slug": "shorts-tommy-hilfiger",
+      "category": "Mauricinho & Shorts",
+      "categorySlug": "mauricinho",
+      "mainImage": "/catalog/mauricinho/shorts-tommy.jpg",
+      "images": [
+        "/catalog/mauricinho/shorts-tommy.jpg"
+      ],
+      "price": null,
+      "priceDisplay": "Consultar valor",
+      "brand": "Tommy Hilfiger",
+      "inStock": true,
+      "description": "Peça selecionada com padrão de qualidade e elegância BRADAN CONCEITO. Acabamento primoroso e materiais selecionados para presença e sofisticação no guarda-roupa masculino.",
+      "tags": [
+        "Mauricinho & Shorts",
+        "Tommy Hilfiger"
+      ],
+      "createdAt": "2026-10-29T01:48:41.373Z"
+    },
+    {
+      "id": "prod_perfumes-importados_1",
+      "name": "Perfume Brand Collection Masculino",
+      "slug": "brand-collection",
+      "category": "Perfumes Importados",
+      "categorySlug": "perfumes-importados",
+      "mainImage": "/catalog/perfumes-importados/brand-collection.jpg",
+      "images": [
+        "/catalog/perfumes-importados/brand-collection.jpg"
+      ],
+      "price": null,
+      "priceDisplay": "Consultar valor",
+      "brand": "Brand Collection",
+      "inStock": true,
+      "description": "Peça selecionada com padrão de qualidade e elegância BRADAN CONCEITO. Acabamento primoroso e materiais selecionados para presença e sofisticação no guarda-roupa masculino.",
+      "tags": [
+        "Perfumes Importados",
+        "Brand Collection"
+      ],
+      "createdAt": "2026-10-29T01:48:41.388Z"
+    },
+    {
+      "id": "prod_perfumes-importados_2",
+      "name": "Perfume Asad Bourbon Lattafa",
+      "slug": "perfume-asad-bourbon-lattafa",
+      "category": "Perfumes Importados",
+      "categorySlug": "perfumes-importados",
+      "mainImage": "/catalog/perfumes-importados/asad-bourbon.jpg",
+      "images": [
+        "/catalog/perfumes-importados/asad-bourbon.jpg"
+      ],
+      "price": null,
+      "priceDisplay": "Consultar valor",
+      "brand": "Lattafa / Perfumes Árabes",
+      "inStock": true,
+      "description": "Peça selecionada com padrão de qualidade e elegância BRADAN CONCEITO. Acabamento primoroso e materiais selecionados para presença e sofisticação no guarda-roupa masculino.",
+      "tags": [
+        "Perfumes Importados",
+        "Lattafa / Perfumes Árabes"
+      ],
+      "createdAt": "2026-10-29T01:48:41.388Z"
+    },
+    {
+      "id": "prod_perfumes-importados_3",
+      "name": "Perfume Árabe Bade'e Al Oud Lattafa",
+      "slug": "perfume-arabe-badee-al-oud",
+      "category": "Perfumes Importados",
+      "categorySlug": "perfumes-importados",
+      "mainImage": "/catalog/perfumes-importados/perfume-arabe-masculino-bade-e-al-oud.jpg",
+      "images": [
+        "/catalog/perfumes-importados/perfume-arabe-masculino-bade-e-al-oud.jpg"
+      ],
+      "price": null,
+      "priceDisplay": "Consultar valor",
+      "brand": "Lattafa / Perfumes Árabes",
+      "inStock": true,
+      "description": "Peça selecionada com padrão de qualidade e elegância BRADAN CONCEITO. Acabamento primoroso e materiais selecionados para presença e sofisticação no guarda-roupa masculino.",
+      "tags": [
+        "Perfumes Importados",
+        "Lattafa / Perfumes Árabes"
+      ],
+      "createdAt": "2026-10-29T01:48:41.388Z"
+    }
+  ]
+}
