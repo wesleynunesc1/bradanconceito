@@ -6,7 +6,7 @@ import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { ShoppingBag, Search, Menu, X, ChevronRight, Phone } from 'lucide-react';
 import { useBag } from '@/context/BagContext';
-import { getAllCategories } from '@/lib/catalog';
+import { getAllCategories, getStoreInfo } from '@/lib/catalog';
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -16,6 +16,7 @@ export default function Header() {
   const pathname = usePathname();
   const { totalCount } = useBag();
   const categories = getAllCategories();
+  const store = getStoreInfo();
 
   // Scroll listener for sticky glass header
   useEffect(() => {
@@ -236,7 +237,7 @@ export default function Header() {
             <div className="pt-6 border-t border-[#D7A574]/15 text-xs text-[#9A928B] space-y-2">
               <p className="text-[#F6F3EE] font-medium text-xs">Atendimento Personalizado</p>
               <Link
-                href="https://wa.me/5562999999999"
+                href={`https://wa.me/${store.whatsapp}`}
                 target="_blank"
                 className="inline-flex items-center text-[#D7A574] hover:underline space-x-1.5"
               >

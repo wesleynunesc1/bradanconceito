@@ -338,8 +338,8 @@ const catalogOutput = {
     name: 'BRADAN CONCEITO',
     slogan: 'O essencial não precisa ser comum.',
     description: 'Moda masculina contemporânea, elegância atemporal e curadoria de alto padrão.',
-    whatsapp: '5562999999999', // Configurável
-    whatsappDisplay: '(62) 99999-9999',
+    whatsapp: '5585991284210', // Oficial BRADAN CONCEITO
+    whatsappDisplay: '(85) 99128-4210',
     instagram: '@bradanconceito',
     location: 'Atendimento e envios para todo o Brasil',
     schedule: 'Segunda a Sábado, das 09h às 19h'

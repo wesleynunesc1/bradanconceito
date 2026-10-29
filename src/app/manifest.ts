@@ -11,8 +11,8 @@ export default function manifest(): MetadataRoute.Manifest {
     theme_color: '#0B0908',
     icons: [
       {
-        src: '/brand/bradan-conceito-bronze.png',
-        sizes: 'any',
+        src: '/brand/bradan-emblem.png',
+        sizes: '1024x1024',
         type: 'image/png',
       },
     ],

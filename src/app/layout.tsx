@@ -39,6 +39,10 @@ export const metadata: Metadata = {
   alternates: {
     canonical: '/',
   },
+  icons: {
+    icon: '/brand/bradan-emblem.png',
+    apple: '/brand/bradan-emblem.png',
+  },
   openGraph: {
     title: 'BRADAN CONCEITO | Moda Masculina Premium',
     description: 'O essencial não precisa ser comum. Descubra nossa curadoria de moda masculina.',
@@ -82,7 +86,7 @@ const organizationSchema = {
   logo: 'https://bradanconceito.com.br/brand/bradan-conceito-bronze.png',
   image: 'https://bradanconceito.com.br/brand/bradan-conceito-dark.jpg',
   description: 'O essencial não precisa ser comum. Curadoria de moda masculina premium, calçados nobres e perfumaria importada.',
-  telephone: '+5562999999999',
+  telephone: '+5585991284210',
   priceRange: '$$$',
   address: {
     '@type': 'PostalAddress',
