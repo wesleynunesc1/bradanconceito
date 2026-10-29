@@ -16,9 +16,29 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://bradanconceito.com.br'),
-  title: 'BRADAN CONCEITO | Moda Masculina Premium & Catálogo Digital',
+  title: {
+    default: 'BRADAN CONCEITO | Moda Masculina Premium & Catálogo Digital',
+    template: '%s | BRADAN CONCEITO',
+  },
   description: 'O essencial não precisa ser comum. Catálogo digital exclusivo de moda masculina, calçados nobres, perfumaria importada e peças selecionadas.',
-  keywords: 'Bradan Conceito, moda masculina, calçados masculinos, perfumes importados, camisas polo, ralph lauren, armani, hugo boss',
+  keywords: [
+    'Bradan Conceito',
+    'moda masculina premium',
+    'calçados masculinos em couro',
+    'loafers masculinos',
+    'camisas polo',
+    'camisetas casuais ralph lauren',
+    'tênis armani exchange',
+    'perfumes importados masculinos',
+    'perfume árabe asad lattafa',
+    'catálogo de moda masculina',
+  ],
+  authors: [{ name: 'BRADAN CONCEITO', url: 'https://bradanconceito.com.br' }],
+  creator: 'BRADAN CONCEITO',
+  publisher: 'BRADAN CONCEITO',
+  alternates: {
+    canonical: '/',
+  },
   openGraph: {
     title: 'BRADAN CONCEITO | Moda Masculina Premium',
     description: 'O essencial não precisa ser comum. Descubra nossa curadoria de moda masculina.',
@@ -29,16 +49,56 @@ export const metadata: Metadata = {
         url: '/brand/bradan-conceito-dark.jpg',
         width: 1200,
         height: 630,
-        alt: 'BRADAN CONCEITO',
+        alt: 'BRADAN CONCEITO - Moda Masculina Premium',
       },
     ],
     locale: 'pt_BR',
     type: 'website',
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'BRADAN CONCEITO | Moda Masculina Premium',
+    description: 'Catálogo digital exclusivo de moda masculina, calçados nobres e perfumaria importada.',
+    images: ['/brand/bradan-conceito-dark.jpg'],
+  },
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
   },
+};
+
+const organizationSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ClothingStore',
+  name: 'BRADAN CONCEITO',
+  url: 'https://bradanconceito.com.br',
+  logo: 'https://bradanconceito.com.br/brand/bradan-conceito-bronze.png',
+  image: 'https://bradanconceito.com.br/brand/bradan-conceito-dark.jpg',
+  description: 'O essencial não precisa ser comum. Curadoria de moda masculina premium, calçados nobres e perfumaria importada.',
+  telephone: '+5562999999999',
+  priceRange: '$$$',
+  address: {
+    '@type': 'PostalAddress',
+    addressCountry: 'BR',
+  },
+  openingHoursSpecification: [
+    {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+      opens: '09:00',
+      closes: '19:00',
+    },
+  ],
+  sameAs: [
+    'https://instagram.com/bradanconceito',
+  ],
 };
 
 export default function RootLayout({
@@ -49,6 +109,10 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className={`${montserrat.variable} scroll-smooth`}>
       <body className="bg-[#0B0908] text-[#F6F3EE] min-h-screen flex flex-col font-sans selection:bg-[#B47A4B] selection:text-white">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        />
         <BagProvider>
           <Header />
           <main className="flex-1 w-full">{children}</main>

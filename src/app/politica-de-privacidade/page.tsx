@@ -7,6 +7,9 @@ import { getStoreInfo } from '@/lib/catalog';
 export const metadata: Metadata = {
   title: 'Política de Privacidade | BRADAN CONCEITO',
   description: 'Política de privacidade e diretrizes de atendimento do catálogo digital BRADAN CONCEITO.',
+  alternates: {
+    canonical: 'https://bradanconceito.com.br/politica-de-privacidade',
+  },
 };
 
 export default function PoliticaPrivacidadePage() {

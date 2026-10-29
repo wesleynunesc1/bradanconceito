@@ -24,20 +24,43 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const product = getProductBySlug(slug);
   if (!product) {
-    return { title: 'Produto não encontrado | BRADAN CONCEITO' };
+    return { title: 'Produto não encontrado' };
   }
+
+  const title = product.name;
+  const description = `${product.name} — ${product.category}. Acabamento primoroso e materiais selecionados no catálogo oficial BRADAN CONCEITO. Consulte disponibilidade e valor via WhatsApp.`;
+  const url = `https://bradanconceito.com.br/produto/${product.slug}`;
+
   return {
-    title: `${product.name} | BRADAN CONCEITO`,
-    description: `${product.name} da categoria ${product.category}. Peça exclusiva do catálogo BRADAN CONCEITO.`,
+    title,
+    description,
+    keywords: [
+      product.name,
+      product.category,
+      product.brand || 'BRADAN Conceito',
+      'moda masculina',
+      'peça original',
+      'catálogo digital',
+    ],
+    alternates: {
+      canonical: url,
+    },
     openGraph: {
       title: `${product.name} | BRADAN CONCEITO`,
-      description: product.description,
-      images: [
-        {
-          url: product.mainImage,
-          alt: product.name,
-        },
-      ],
+      description,
+      url,
+      siteName: 'BRADAN CONCEITO',
+      images: product.images.map(img => ({
+        url: img,
+        alt: `${product.name} - BRADAN CONCEITO`,
+      })),
+      type: 'article',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${product.name} | BRADAN CONCEITO`,
+      description,
+      images: [product.mainImage],
     },
   };
 }
@@ -52,10 +75,78 @@ export default async function ProductDetailPage({ params }: Props) {
 
   const related = getRelatedProducts(product.slug, 4);
 
+  // Schema.org Product Rich Snippet
+  const productJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: product.name,
+    image: product.images.map(img => `https://bradanconceito.com.br${img}`),
+    description: product.description,
+    brand: {
+      '@type': 'Brand',
+      name: product.brand || 'BRADAN CONCEITO',
+    },
+    category: product.category,
+    offers: {
+      '@type': 'Offer',
+      priceCurrency: 'BRL',
+      price: product.price ? product.price.replace(/[^0-9,.]/g, '') : undefined,
+      availability: 'https://schema.org/InStock',
+      url: `https://bradanconceito.com.br/produto/${product.slug}`,
+      itemCondition: 'https://schema.org/NewCondition',
+      seller: {
+        '@type': 'ClothingStore',
+        name: 'BRADAN CONCEITO',
+      },
+    },
+  };
+
+  // Schema.org BreadcrumbList Rich Snippet
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Início',
+        item: 'https://bradanconceito.com.br',
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Catálogo',
+        item: 'https://bradanconceito.com.br/catalogo',
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: product.category,
+        item: `https://bradanconceito.com.br/categoria/${product.categorySlug}`,
+      },
+      {
+        '@type': 'ListItem',
+        position: 4,
+        name: product.name,
+        item: `https://bradanconceito.com.br/produto/${product.slug}`,
+      },
+    ],
+  };
+
   return (
     <div className="pt-28 sm:pt-36 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full">
-      {/* Breadcrumb */}
-      <nav className="flex items-center space-x-2 text-xs text-[#9A928B] mb-8 overflow-x-auto pb-1">
+      {/* Rich Snippets */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(productJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+
+      {/* Breadcrumb Visual Navigation */}
+      <nav aria-label="Breadcrumb" className="flex items-center space-x-2 text-xs text-[#9A928B] mb-8 overflow-x-auto pb-1">
         <Link href="/" className="hover:text-[#F6F3EE] transition-colors shrink-0">
           Início
         </Link>
@@ -85,7 +176,7 @@ export default async function ProductDetailPage({ params }: Props) {
               <span className="text-xs uppercase tracking-[0.25em] text-[#D7A574] font-medium block">
                 Sugestões de Composição
               </span>
-              <h2 className="text-xl sm:text-2xl font-normal text-[#F6F3EE] tracking-tight">
+              <h2 className="text-xl sm:text-2xl font-normal text-[#F6F3EE] tracking-tight uppercase">
                 PRODUTOS RELACIONADOS
               </h2>
             </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
 import { ArrowRight, ChevronRight, MessageCircle, Sparkles } from 'lucide-react';
@@ -9,6 +10,14 @@ import {
   getStoreInfo,
 } from '@/lib/catalog';
 import ProductCard from '@/components/ProductCard';
+
+export const metadata: Metadata = {
+  title: 'BRADAN CONCEITO | Moda Masculina Premium & Catálogo Digital',
+  description: 'O essencial não precisa ser comum. Catálogo digital exclusivo de moda masculina, calçados nobres em couro, perfumaria importada e peças selecionadas.',
+  alternates: {
+    canonical: 'https://bradanconceito.com.br',
+  },
+};
 
 export default function HomePage() {
   const categories = getAllCategories();

@@ -25,7 +25,7 @@ export default function ProductCard({ product, priority = false }: ProductCardPr
       >
         <Image
           src={product.mainImage}
-          alt={product.name}
+          alt={`${product.name} - ${product.category} BRADAN CONCEITO`}
           fill
           priority={priority}
           sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
