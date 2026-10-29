@@ -107,7 +107,7 @@ export default function SacolaPage() {
           </div>
 
           {/* Checkout / WhatsApp Summary Card (5 cols) */}
-          <div className="lg:col-span-5 bg-[#140F0D] border border-[#D7A574]/25 p-6 sm:p-8 space-y-6">
+          <div className="lg:col-span-5 lg:sticky lg:top-28 bg-[#140F0D] border border-[#D7A574]/25 p-5 sm:p-8 space-y-6">
             <h3 className="text-sm uppercase tracking-[0.2em] text-[#D7A574] font-semibold">
               Resumo da Consulta
             </h3>

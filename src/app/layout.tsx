@@ -5,6 +5,7 @@ import { BagProvider } from '@/context/BagContext';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import BagToast from '@/components/BagToast';
+import BrandIntro from '@/components/BrandIntro';
 
 const montserrat = Montserrat({
   subsets: ['latin'],
@@ -118,6 +119,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
         />
         <BagProvider>
+          <BrandIntro />
           <Header />
           <main className="flex-1 w-full">{children}</main>
           <Footer />

@@ -51,26 +51,26 @@ export default function ProductCard({ product, priority = false }: ProductCardPr
       </Link>
 
       {/* Product Information */}
-      <div className="p-4 sm:p-5 flex-1 flex flex-col justify-between space-y-3">
+      <div className="p-3.5 sm:p-5 flex-1 flex flex-col justify-between space-y-2.5 sm:space-y-3">
         <div>
-          <span className="text-[10px] uppercase tracking-[0.2em] text-[#D7A574]/80 font-medium block mb-1">
+          <span className="text-[9px] sm:text-[10px] uppercase tracking-[0.2em] text-[#D7A574]/80 font-medium block mb-1">
             {product.category}
           </span>
           <Link href={`/produto/${product.slug}`}>
-            <h3 className="text-sm font-medium text-[#F6F3EE] hover:text-[#D7A574] transition-colors line-clamp-2 leading-snug">
+            <h3 className="text-xs sm:text-sm font-medium text-[#F6F3EE] hover:text-[#D7A574] transition-colors line-clamp-2 leading-snug">
               {product.name}
             </h3>
           </Link>
         </div>
 
-        <div className="pt-2 border-t border-[#D7A574]/10 flex items-center justify-between">
-          <div>
-            <span className="text-xs font-semibold text-[#D7A574] tracking-wide">
+        <div className="pt-2 border-t border-[#D7A574]/10 flex items-center justify-between gap-1.5">
+          <div className="min-w-0">
+            <span className="text-[11px] sm:text-xs font-semibold text-[#D7A574] tracking-wide block truncate">
               {product.price || 'Consultar valor'}
             </span>
           </div>
 
-          <div className="flex items-center space-x-2">
+          <div className="flex items-center space-x-1.5 sm:space-x-2 shrink-0">
             {/* Add to Interest Bag */}
             <button
               type="button"
@@ -79,7 +79,7 @@ export default function ProductCard({ product, priority = false }: ProductCardPr
                 addItem(product);
               }}
               title={inBag ? 'Item na sacola' : 'Adicionar à sacola de interesse'}
-              className={`p-2 transition-all duration-200 border ${
+              className={`p-1.5 sm:p-2 transition-all duration-200 border ${
                 inBag
                   ? 'bg-[#B47A4B] text-[#0B0908] border-[#B47A4B]'
                   : 'bg-[#181310] text-[#D7A574] border-[#D7A574]/25 hover:border-[#D7A574] hover:bg-[#D7A574] hover:text-[#0B0908]'
@@ -92,7 +92,7 @@ export default function ProductCard({ product, priority = false }: ProductCardPr
             {/* View Details */}
             <Link
               href={`/produto/${product.slug}`}
-              className="p-2 bg-[#181310] text-[#9A928B] hover:text-[#F6F3EE] border border-[#D7A574]/25 hover:border-[#D7A574] transition-all"
+              className="p-1.5 sm:p-2 bg-[#181310] text-[#9A928B] hover:text-[#F6F3EE] border border-[#D7A574]/25 hover:border-[#D7A574] transition-all"
               title="Ver detalhes do produto"
               aria-label="Ver detalhes"
             >

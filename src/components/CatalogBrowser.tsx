@@ -119,14 +119,14 @@ function CatalogContent({ initialProducts, categories }: CatalogBrowserProps) {
         </div>
 
         {/* Categories Pills for Quick Filter */}
-        <div className="pt-2 flex flex-wrap gap-2 items-center">
-          <span className="text-[10px] uppercase tracking-wider text-[#9A928B] mr-1 hidden sm:inline-block">
+        <div className="pt-2 flex items-center gap-2 overflow-x-auto pb-1 sm:pb-0 sm:flex-wrap no-scrollbar">
+          <span className="text-[10px] uppercase tracking-wider text-[#9A928B] mr-1 hidden sm:inline-block shrink-0">
             Filtrar:
           </span>
           <button
             type="button"
             onClick={() => setSelectedCategory('all')}
-            className={`px-3 py-1 text-[11px] uppercase tracking-wider transition-all border ${
+            className={`px-3 py-1.5 text-[11px] uppercase tracking-wider transition-all border shrink-0 whitespace-nowrap ${
               selectedCategory === 'all'
                 ? 'bg-[#B47A4B] text-[#0B0908] border-[#B47A4B] font-semibold'
                 : 'bg-[#0B0908] text-[#9A928B] border-[#D7A574]/20 hover:text-[#F6F3EE] hover:border-[#D7A574]/40'
@@ -139,7 +139,7 @@ function CatalogContent({ initialProducts, categories }: CatalogBrowserProps) {
               key={c.slug}
               type="button"
               onClick={() => setSelectedCategory(c.slug)}
-              className={`px-3 py-1 text-[11px] uppercase tracking-wider transition-all border ${
+              className={`px-3 py-1.5 text-[11px] uppercase tracking-wider transition-all border shrink-0 whitespace-nowrap ${
                 selectedCategory === c.slug
                   ? 'bg-[#B47A4B] text-[#0B0908] border-[#B47A4B] font-semibold'
                   : 'bg-[#0B0908] text-[#9A928B] border-[#D7A574]/20 hover:text-[#F6F3EE] hover:border-[#D7A574]/40'
@@ -172,7 +172,7 @@ function CatalogContent({ initialProducts, categories }: CatalogBrowserProps) {
 
       {/* Products Grid */}
       {filteredProducts.length > 0 ? (
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-6">
           {filteredProducts.map(product => (
             <ProductCard key={product.id} product={product} />
           ))}

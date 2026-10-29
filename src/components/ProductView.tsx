@@ -44,7 +44,7 @@ export default function ProductView({ product }: ProductViewProps) {
       <div className="lg:col-span-7 flex flex-col-reverse md:flex-row gap-4">
         {/* Thumbnails (if multiple images) */}
         {product.images.length > 1 && (
-          <div className="flex md:flex-col gap-3 overflow-x-auto md:overflow-y-auto max-h-[580px] shrink-0 pb-2 md:pb-0">
+          <div className="flex md:flex-col gap-2.5 sm:gap-3 overflow-x-auto md:overflow-y-auto max-h-[580px] shrink-0 pb-1 md:pb-0 no-scrollbar">
             {product.images.map((img, idx) => (
               <button
                 key={idx}

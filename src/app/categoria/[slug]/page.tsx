@@ -148,15 +148,15 @@ export default async function CategoryPage({ params }: Props) {
       </nav>
 
       {/* Editorial Category Header */}
-      <header className="bg-[#140F0D] border border-[#D7A574]/20 p-8 sm:p-12 mb-12 relative overflow-hidden">
+      <header className="bg-[#140F0D] border border-[#D7A574]/20 p-6 sm:p-12 mb-10 sm:mb-12 relative overflow-hidden">
         <div className="max-w-2xl relative z-10 space-y-3">
           <span className="text-xs uppercase tracking-[0.3em] text-[#D7A574] font-medium">
             Coleção Oficial
           </span>
-          <h1 className="text-3xl sm:text-5xl font-bold tracking-tight text-[#F6F3EE] uppercase">
+          <h1 className="text-2xl sm:text-5xl font-bold tracking-tight text-[#F6F3EE] uppercase">
             {category.name}
           </h1>
-          <p className="text-sm sm:text-base text-[#9A928B] leading-relaxed pt-1">
+          <p className="text-xs sm:text-base text-[#9A928B] leading-relaxed pt-1">
             {category.description}
           </p>
           <div className="pt-2">
@@ -170,7 +170,7 @@ export default async function CategoryPage({ params }: Props) {
       {/* Products Grid */}
       {products.length > 0 ? (
         <section aria-label={`Produtos da categoria ${category.name}`}>
-          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-6">
             {products.map(product => (
               <ProductCard key={product.id} product={product} />
             ))}
