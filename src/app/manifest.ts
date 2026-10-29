@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'BRADAN CONCEITO | Moda Masculina Premium',
+    name: 'BRADAN MODA MASCULINA',
     short_name: 'BRADAN',
     description: 'Catálogo digital exclusivo de moda masculina, calçados nobres e perfumaria importada.',
     start_url: '/',

@@ -36,10 +36,10 @@ export default function Footer() {
           {/* Brand Presentation */}
           <div className="lg:col-span-2 space-y-5">
             <Link href="/" className="inline-block">
-              <div className="relative h-11 w-52">
+              <div className="relative h-14 w-56">
                 <Image
-                  src="/brand/bradan-conceito-bronze.png"
-                  alt="BRADAN CONCEITO"
+                  src="/brand/bradan-logo.png"
+                  alt="BRADAN MODA MASCULINA"
                   fill
                   className="object-contain object-left"
                 />
@@ -54,7 +54,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full border border-[#D7A574]/20 flex items-center justify-center text-[#D7A574] hover:bg-[#D7A574] hover:text-[#0B0908] transition-all"
-                aria-label="Instagram BRADAN CONCEITO"
+                aria-label="Instagram BRADAN MODA MASCULINA"
               >
                 <InstagramIcon className="w-4 h-4" />
               </a>
@@ -63,7 +63,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full border border-[#D7A574]/20 flex items-center justify-center text-[#D7A574] hover:bg-[#D7A574] hover:text-[#0B0908] transition-all"
-                aria-label="WhatsApp BRADAN CONCEITO"
+                aria-label="WhatsApp BRADAN MODA MASCULINA"
               >
                 <MessageCircle className="w-4 h-4" />
               </a>
@@ -157,7 +157,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-[11px] text-[#79736E] gap-4">
-          <p>© {new Date().getFullYear()} BRADAN CONCEITO. Todos os direitos reservados.</p>
+          <p>© {new Date().getFullYear()} BRADAN MODA MASCULINA. Todos os direitos reservados.</p>
           <div className="flex items-center space-x-6">
             <Link href="/politica-de-privacidade" className="hover:text-[#9A928B] transition-colors">
               Política de Privacidade

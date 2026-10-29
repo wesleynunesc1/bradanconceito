@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   const title = product.name;
-  const description = `${product.name} — ${product.category}. Acabamento primoroso e materiais selecionados no catálogo oficial BRADAN CONCEITO. Consulte disponibilidade e valor via WhatsApp.`;
+  const description = `${product.name} — ${product.category}. Acabamento primoroso e materiais selecionados no catálogo oficial BRADAN MODA MASCULINA. Consulte disponibilidade e valor via WhatsApp.`;
   const url = `https://bradanconceito.com.br/produto/${product.slug}`;
 
   return {
@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     keywords: [
       product.name,
       product.category,
-      product.brand || 'BRADAN Conceito',
+      product.brand || 'BRADAN Moda Masculina',
       'moda masculina',
       'peça original',
       'catálogo digital',
@@ -46,19 +46,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       canonical: url,
     },
     openGraph: {
-      title: `${product.name} | BRADAN CONCEITO`,
+      title: `${product.name} | BRADAN MODA MASCULINA`,
       description,
       url,
-      siteName: 'BRADAN CONCEITO',
+      siteName: 'BRADAN MODA MASCULINA',
       images: product.images.map(img => ({
         url: img,
-        alt: `${product.name} - BRADAN CONCEITO`,
+        alt: `${product.name} - BRADAN MODA MASCULINA`,
       })),
       type: 'article',
     },
     twitter: {
       card: 'summary_large_image',
-      title: `${product.name} | BRADAN CONCEITO`,
+      title: `${product.name} | BRADAN MODA MASCULINA`,
       description,
       images: [product.mainImage],
     },
@@ -84,7 +84,7 @@ export default async function ProductDetailPage({ params }: Props) {
     description: product.description,
     brand: {
       '@type': 'Brand',
-      name: product.brand || 'BRADAN CONCEITO',
+      name: product.brand || 'BRADAN MODA MASCULINA',
     },
     category: product.category,
     offers: {
@@ -96,7 +96,7 @@ export default async function ProductDetailPage({ params }: Props) {
       itemCondition: 'https://schema.org/NewCondition',
       seller: {
         '@type': 'ClothingStore',
-        name: 'BRADAN CONCEITO',
+        name: 'BRADAN MODA MASCULINA',
       },
     },
   };

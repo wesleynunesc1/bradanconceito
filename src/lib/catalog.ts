@@ -76,13 +76,13 @@ export function getNewArrivals(limit = 4): Product[] {
 export function buildProductWhatsAppLink(product: Product, host = ''): string {
   const phone = catalog.store.whatsapp;
   const productUrl = `${host}/produto/${product.slug}`;
-  const text = `Olá! Vi o produto *${product.name}* no catálogo da *BRADAN CONCEITO* e gostaria de consultar valor e disponibilidade.\n\nLink da peça: ${productUrl}`;
+  const text = `Olá! Vi o produto *${product.name}* no catálogo da *BRADAN MODA MASCULINA* e gostaria de consultar valor e disponibilidade.\n\nLink da peça: ${productUrl}`;
   return `https://wa.me/${phone}?text=${encodeURIComponent(text)}`;
 }
 
 export function buildBagWhatsAppLink(items: { product: Product; quantity: number }[], host = ''): string {
   const phone = catalog.store.whatsapp;
-  let text = `Olá! Montei uma sacola de interesse no catálogo da *BRADAN CONCEITO* e gostaria de consultar valores, tamanhos e disponibilidade para as seguintes peças:\n\n`;
+  let text = `Olá! Montei uma sacola de interesse no catálogo da *BRADAN MODA MASCULINA* e gostaria de consultar valores, tamanhos e disponibilidade para as seguintes peças:\n\n`;
 
   items.forEach((item, idx) => {
     const pUrl = `${host}/produto/${item.product.slug}`;

@@ -73,7 +73,7 @@ export default function ProductView({ product }: ProductViewProps) {
         <div className="relative flex-1 aspect-[4/5] bg-[#140F0D] border border-[#D7A574]/20 overflow-hidden group">
           <Image
             src={product.images[selectedImage] || product.mainImage}
-            alt={`${product.name} foto ${selectedImage + 1} - ${product.category} BRADAN CONCEITO`}
+            alt={`${product.name} foto ${selectedImage + 1} - ${product.category} BRADAN MODA MASCULINA`}
             fill
             priority
             sizes="(max-width: 1024px) 100vw, 600px"

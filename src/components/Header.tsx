@@ -71,13 +71,13 @@ export default function Header() {
             {/* Logo */}
             <div className="flex-1 md:flex-initial flex justify-center md:justify-start">
               <Link href="/" className="inline-flex items-center group">
-                <div className="relative h-9 sm:h-11 w-40 sm:w-48 transition-transform duration-300 group-hover:scale-[1.02]">
+                <div className="relative h-11 sm:h-14 w-44 sm:w-56 transition-transform duration-300 group-hover:scale-[1.02]">
                   <Image
-                    src="/brand/bradan-conceito-bronze.png"
-                    alt="BRADAN CONCEITO"
+                    src="/brand/bradan-logo.png"
+                    alt="BRADAN MODA MASCULINA"
                     fill
                     priority
-                    sizes="(max-width: 640px) 160px, 192px"
+                    sizes="(max-width: 640px) 180px, 220px"
                     className="object-contain object-left md:object-left"
                   />
                 </div>
@@ -180,10 +180,10 @@ export default function Header() {
             <div>
               {/* Header inside drawer */}
               <div className="flex items-center justify-between pb-6 border-b border-[#D7A574]/15">
-                <div className="relative h-8 w-36">
+                <div className="relative h-10 w-44">
                   <Image
-                    src="/brand/bradan-conceito-bronze.png"
-                    alt="BRADAN CONCEITO"
+                    src="/brand/bradan-logo.png"
+                    alt="BRADAN MODA MASCULINA"
                     fill
                     className="object-contain object-left"
                   />

@@ -4,31 +4,31 @@ import { getAllProducts, getAllCategories } from '@/lib/catalog';
 import CatalogBrowser from '@/components/CatalogBrowser';
 
 export const metadata: Metadata = {
-  title: 'Catálogo Completo | BRADAN CONCEITO',
+  title: 'Catálogo Completo | BRADAN MODA MASCULINA',
   description: 'Explore nossa coleção completa de moda masculina premium, calçados nobres, perfumaria importada e alfaiataria casual.',
   alternates: {
     canonical: 'https://bradanconceito.com.br/catalogo',
   },
   openGraph: {
-    title: 'Catálogo Geral | BRADAN CONCEITO',
-    description: 'Catálogo exclusivo de moda masculina, calçados e perfumaria com consulta via WhatsApp.',
+    title: 'Catálogo Geral | BRADAN MODA MASCULINA',
+    description: 'Catálogo exclusivo da BRADAN MODA MASCULINA, calçados e perfumaria com consulta via WhatsApp.',
     url: 'https://bradanconceito.com.br/catalogo',
-    siteName: 'BRADAN CONCEITO',
+    siteName: 'BRADAN MODA MASCULINA',
     images: [
       {
-        url: '/brand/bradan-conceito-dark.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'Catálogo BRADAN CONCEITO',
+        url: '/brand/bradan-logo.png',
+        width: 1115,
+        height: 755,
+        alt: 'Catálogo BRADAN MODA MASCULINA',
       },
     ],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Catálogo Geral | BRADAN CONCEITO',
+    title: 'Catálogo Geral | BRADAN MODA MASCULINA',
     description: 'Explore nossa coleção completa de moda masculina premium e calçados nobres.',
-    images: ['/brand/bradan-conceito-dark.jpg'],
+    images: ['/brand/bradan-logo.png'],
   },
 };
 
@@ -39,7 +39,7 @@ export default function CatalogoPage() {
   const catalogJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
-    name: 'Catálogo Completo BRADAN CONCEITO',
+    name: 'Catálogo Completo BRADAN MODA MASCULINA',
     description: 'Curadoria completa de moda masculina e acessórios selecionados.',
     url: 'https://bradanconceito.com.br/catalogo',
     mainEntity: {

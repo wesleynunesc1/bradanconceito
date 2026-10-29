@@ -25,7 +25,7 @@ export default function ProductCard({ product, priority = false }: ProductCardPr
       >
         <Image
           src={product.mainImage}
-          alt={`${product.name} - ${product.category} BRADAN CONCEITO`}
+          alt={`${product.name} - ${product.category} BRADAN MODA MASCULINA`}
           fill
           priority={priority}
           sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
@@ -43,7 +43,7 @@ export default function ProductCard({ product, priority = false }: ProductCardPr
         )}
 
         {/* Brand badge */}
-        {product.brand && product.brand !== 'BRADAN Conceito' && (
+        {product.brand && product.brand !== 'BRADAN Moda Masculina' && (
           <div className="absolute top-2.5 right-2.5 bg-[#0B0908]/75 backdrop-blur-md px-2 py-0.5 text-[9px] uppercase tracking-wider text-[#F6F3EE] border border-[#D7A574]/20">
             {product.brand}
           </div>

@@ -12,8 +12,8 @@ import {
 import ProductCard from '@/components/ProductCard';
 
 export const metadata: Metadata = {
-  title: 'BRADAN CONCEITO | Moda Masculina Premium & Catálogo Digital',
-  description: 'O essencial não precisa ser comum. Catálogo digital exclusivo de moda masculina, calçados nobres em couro, perfumaria importada e peças selecionadas.',
+  title: 'BRADAN MODA MASCULINA | Loja Online & Catálogo Digital',
+  description: 'O essencial não precisa ser comum. Catálogo digital exclusivo da BRADAN MODA MASCULINA, calçados nobres em couro, perfumaria importada e peças selecionadas.',
   alternates: {
     canonical: 'https://bradanconceito.com.br',
   },
@@ -125,10 +125,10 @@ export default function HomePage() {
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[300px] bg-[#B47A4B]/8 blur-[120px] rounded-full pointer-events-none" />
 
         <div className="max-w-4xl mx-auto text-center space-y-6 sm:space-y-8 relative z-10">
-          <div className="inline-block relative h-11 w-52 sm:w-60 mx-auto mb-2">
+          <div className="inline-block relative h-16 w-56 sm:w-64 mx-auto mb-2">
             <Image
-              src="/brand/bradan-conceito-bronze.png"
-              alt="BRADAN CONCEITO"
+              src="/brand/bradan-logo.png"
+              alt="BRADAN MODA MASCULINA"
               fill
               className="object-contain"
             />
@@ -195,7 +195,7 @@ export default function HomePage() {
             <div className="pt-2">
               <a
                 href={`https://wa.me/${store.whatsapp}?text=${encodeURIComponent(
-                  'Olá! Gostaria de falar com a equipe da BRADAN CONCEITO para consultar modelos e disponibilidade.'
+                  'Olá! Gostaria de falar com a equipe da BRADAN MODA MASCULINA para consultar modelos e disponibilidade.'
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -210,7 +210,7 @@ export default function HomePage() {
           {/* Decorative background logo */}
           <div className="absolute -right-16 -bottom-16 w-80 h-80 opacity-5 pointer-events-none hidden lg:block">
             <Image
-              src="/brand/bradan-conceito-bronze.png"
+              src="/brand/bradan-logo.png"
               alt=""
               fill
               className="object-contain"
