@@ -17,10 +17,10 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   metadataBase: new URL('https://bradanconceito.com.br'),
   title: {
-    default: 'BRADAN MODA MASCULINA | Loja Online & Catálogo Digital',
-    template: '%s | BRADAN MODA MASCULINA',
+    default: 'Bradan Moda Masculina | Loja Online & Catálogo Digital',
+    template: '%s | Bradan Moda Masculina',
   },
-  description: 'O essencial não precisa ser comum. Catálogo digital exclusivo da BRADAN MODA MASCULINA, calçados nobres, perfumaria importada e peças selecionadas.',
+  description: 'O essencial não precisa ser comum. Catálogo digital exclusivo da Bradan Moda Masculina, calçados nobres, perfumaria importada e peças selecionadas.',
   keywords: [
     'Bradan Moda Masculina',
     'Bradan',
@@ -34,9 +34,9 @@ export const metadata: Metadata = {
     'perfume árabe asad lattafa',
     'catálogo de moda masculina',
   ],
-  authors: [{ name: 'BRADAN MODA MASCULINA', url: 'https://bradanconceito.com.br' }],
-  creator: 'BRADAN MODA MASCULINA',
-  publisher: 'BRADAN MODA MASCULINA',
+  authors: [{ name: 'Bradan Moda Masculina', url: 'https://bradanconceito.com.br' }],
+  creator: 'Bradan Moda Masculina',
+  publisher: 'Bradan Moda Masculina',
   alternates: {
     canonical: '/',
   },
@@ -45,16 +45,16 @@ export const metadata: Metadata = {
     apple: '/brand/bradan-emblem.png',
   },
   openGraph: {
-    title: 'BRADAN MODA MASCULINA | Alta Curadoria de Estilo',
+    title: 'Bradan Moda Masculina | Alta Curadoria de Estilo',
     description: 'O essencial não precisa ser comum. Descubra nossa curadoria de moda masculina.',
     url: 'https://bradanconceito.com.br',
-    siteName: 'BRADAN MODA MASCULINA',
+    siteName: 'Bradan Moda Masculina',
     images: [
       {
         url: '/brand/bradan-logo.png',
         width: 1115,
         height: 755,
-        alt: 'BRADAN MODA MASCULINA',
+        alt: 'Bradan Moda Masculina',
       },
     ],
     locale: 'pt_BR',
@@ -62,7 +62,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'BRADAN MODA MASCULINA | Alta Curadoria de Estilo',
+    title: 'Bradan Moda Masculina | Alta Curadoria de Estilo',
     description: 'Catálogo digital exclusivo de moda masculina, calçados nobres e perfumaria importada.',
     images: ['/brand/bradan-logo.png'],
   },
@@ -82,7 +82,7 @@ export const metadata: Metadata = {
 const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'ClothingStore',
-  name: 'BRADAN MODA MASCULINA',
+  name: 'Bradan Moda Masculina',
   url: 'https://bradanconceito.com.br',
   logo: 'https://bradanconceito.com.br/brand/bradan-logo.png',
   image: 'https://bradanconceito.com.br/brand/bradan-logo.png',

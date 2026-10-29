@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return { title: 'Categoria não encontrada' };
   }
 
-  const title = `${category.name} | Coleção BRADAN MODA MASCULINA`;
+  const title = `${category.name} | Coleção Bradan Moda Masculina`;
   const description = `${category.description} Confira nossa curadoria de ${category.name} com fotos reais e atendimento consultivo via WhatsApp.`;
   const url = `https://bradanconceito.com.br/categoria/${category.slug}`;
 
@@ -47,11 +47,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title,
       description,
       url,
-      siteName: 'BRADAN MODA MASCULINA',
+      siteName: 'Bradan Moda Masculina',
       images: [
         {
           url: category.coverImage,
-          alt: `${category.name} - BRADAN MODA MASCULINA`,
+          alt: `${category.name} - Bradan Moda Masculina`,
         },
       ],
       type: 'website',
@@ -81,7 +81,7 @@ export default async function CategoryPage({ params }: Props) {
   const collectionJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
-    name: `${category.name} — BRADAN MODA MASCULINA`,
+    name: `${category.name} — Bradan Moda Masculina`,
     description: category.description,
     url: `https://bradanconceito.com.br/categoria/${category.slug}`,
     mainEntity: {

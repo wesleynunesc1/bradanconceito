@@ -2,8 +2,8 @@ import { MetadataRoute } from 'next';
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'BRADAN MODA MASCULINA',
-    short_name: 'BRADAN',
+    name: 'Bradan Moda Masculina',
+    short_name: 'Bradan',
     description: 'Catálogo digital exclusivo de moda masculina, calçados nobres e perfumaria importada.',
     start_url: '/',
     display: 'standalone',

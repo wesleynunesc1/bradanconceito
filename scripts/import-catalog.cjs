@@ -316,7 +316,7 @@ subdirs.forEach(item => {
       priceDisplay: 'Consultar valor',
       brand: brand,
       inStock: true,
-      description: `Peça selecionada com padrão de qualidade e elegância BRADAN MODA MASCULINA. Acabamento primoroso e materiais selecionados para presença e sofisticação no guarda-roupa masculino.`,
+      description: `Peça selecionada com padrão de qualidade e elegância Bradan Moda Masculina. Acabamento primoroso e materiais selecionados para presença e sofisticação no guarda-roupa masculino.`,
       tags: [meta.name, brand].filter(Boolean),
       createdAt: new Date().toISOString()
     });
@@ -335,7 +335,7 @@ subdirs.forEach(item => {
 // Write to JSON
 const catalogOutput = {
   store: {
-    name: 'BRADAN MODA MASCULINA',
+    name: 'Bradan Moda Masculina',
     slogan: 'O essencial não precisa ser comum.',
     description: 'Moda masculina contemporânea, elegância atemporal e curadoria de alto padrão.',
     whatsapp: '5585991284210', // Oficial BRADAN MODA MASCULINA

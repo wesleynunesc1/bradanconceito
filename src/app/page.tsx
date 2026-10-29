@@ -2,7 +2,7 @@ import React from 'react';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
-import { ArrowRight, ChevronRight, MessageCircle, Sparkles } from 'lucide-react';
+import { ArrowRight, ChevronRight, MessageCircle, Award } from 'lucide-react';
 import {
   getAllCategories,
   getFeaturedProducts,
@@ -12,8 +12,8 @@ import {
 import ProductCard from '@/components/ProductCard';
 
 export const metadata: Metadata = {
-  title: 'BRADAN MODA MASCULINA | Loja Online & Catálogo Digital',
-  description: 'O essencial não precisa ser comum. Catálogo digital exclusivo da BRADAN MODA MASCULINA, calçados nobres em couro, perfumaria importada e peças selecionadas.',
+  title: 'Bradan Moda Masculina | Loja Online & Catálogo Digital',
+  description: 'O essencial não precisa ser comum. Catálogo digital exclusivo da Bradan Moda Masculina, calçados nobres em couro, perfumaria importada e peças selecionadas.',
   alternates: {
     canonical: 'https://bradanconceito.com.br',
   },
@@ -32,7 +32,7 @@ export default function HomePage() {
         {/* Header editorial compacto */}
         <div className="text-center max-w-2xl mx-auto mb-10 sm:mb-14 space-y-3">
           <div className="inline-flex items-center space-x-2 px-3 py-1 border border-[#D7A574]/30 bg-[#16100D]/80 backdrop-blur-sm text-[10px] uppercase tracking-[0.25em] text-[#D7A574]">
-            <Sparkles className="w-3 h-3" />
+            <Award className="w-3.5 h-3.5" />
             <span>Curadoria Masculina Premium</span>
           </div>
           <h1 className="text-2xl sm:text-4xl font-bold tracking-tight text-[#F6F3EE] uppercase font-sans">
@@ -128,7 +128,7 @@ export default function HomePage() {
           <div className="inline-block relative h-16 w-56 sm:w-64 mx-auto mb-2">
             <Image
               src="/brand/bradan-logo.png"
-              alt="BRADAN MODA MASCULINA"
+              alt="Bradan Moda Masculina"
               fill
               className="object-contain"
             />
@@ -195,14 +195,14 @@ export default function HomePage() {
             <div className="pt-2">
               <a
                 href={`https://wa.me/${store.whatsapp}?text=${encodeURIComponent(
-                  'Olá! Gostaria de falar com a equipe da BRADAN MODA MASCULINA para consultar modelos e disponibilidade.'
+                  '👋 Olá! Gostaria de falar com a equipe da Bradan Moda Masculina para consultar modelos e disponibilidade 👔🛍️'
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center space-x-3 px-8 py-4 bg-[#25D366] hover:bg-[#20ba59] text-white font-semibold text-xs uppercase tracking-[0.2em] transition-all shadow-xl hover:shadow-green-900/30"
               >
                 <MessageCircle className="w-5 h-5 fill-current" />
-                <span>Falar com a BRADAN</span>
+                <span>Falar no WhatsApp</span>
               </a>
             </div>
           </div>

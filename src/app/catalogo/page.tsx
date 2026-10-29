@@ -4,29 +4,29 @@ import { getAllProducts, getAllCategories } from '@/lib/catalog';
 import CatalogBrowser from '@/components/CatalogBrowser';
 
 export const metadata: Metadata = {
-  title: 'Catálogo Completo | BRADAN MODA MASCULINA',
+  title: 'Catálogo Completo | Bradan Moda Masculina',
   description: 'Explore nossa coleção completa de moda masculina premium, calçados nobres, perfumaria importada e alfaiataria casual.',
   alternates: {
     canonical: 'https://bradanconceito.com.br/catalogo',
   },
   openGraph: {
-    title: 'Catálogo Geral | BRADAN MODA MASCULINA',
-    description: 'Catálogo exclusivo da BRADAN MODA MASCULINA, calçados e perfumaria com consulta via WhatsApp.',
+    title: 'Catálogo Geral | Bradan Moda Masculina',
+    description: 'Catálogo exclusivo da Bradan Moda Masculina, calçados e perfumaria com consulta via WhatsApp.',
     url: 'https://bradanconceito.com.br/catalogo',
-    siteName: 'BRADAN MODA MASCULINA',
+    siteName: 'Bradan Moda Masculina',
     images: [
       {
         url: '/brand/bradan-logo.png',
         width: 1115,
         height: 755,
-        alt: 'Catálogo BRADAN MODA MASCULINA',
+        alt: 'Catálogo Bradan Moda Masculina',
       },
     ],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Catálogo Geral | BRADAN MODA MASCULINA',
+    title: 'Catálogo Geral | Bradan Moda Masculina',
     description: 'Explore nossa coleção completa de moda masculina premium e calçados nobres.',
     images: ['/brand/bradan-logo.png'],
   },
@@ -39,7 +39,7 @@ export default function CatalogoPage() {
   const catalogJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
-    name: 'Catálogo Completo BRADAN MODA MASCULINA',
+    name: 'Catálogo Completo Bradan Moda Masculina',
     description: 'Curadoria completa de moda masculina e acessórios selecionados.',
     url: 'https://bradanconceito.com.br/catalogo',
     mainEntity: {

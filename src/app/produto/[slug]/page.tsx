@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   const title = product.name;
-  const description = `${product.name} — ${product.category}. Acabamento primoroso e materiais selecionados no catálogo oficial BRADAN MODA MASCULINA. Consulte disponibilidade e valor via WhatsApp.`;
+  const description = `${product.name} — ${product.category}. Acabamento primoroso e materiais selecionados no catálogo oficial Bradan Moda Masculina. Consulte disponibilidade e valor via WhatsApp.`;
   const url = `https://bradanconceito.com.br/produto/${product.slug}`;
 
   return {
@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     keywords: [
       product.name,
       product.category,
-      product.brand || 'BRADAN Moda Masculina',
+      product.brand || 'Bradan Moda Masculina',
       'moda masculina',
       'peça original',
       'catálogo digital',
@@ -46,19 +46,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       canonical: url,
     },
     openGraph: {
-      title: `${product.name} | BRADAN MODA MASCULINA`,
+      title: `${product.name} | Bradan Moda Masculina`,
       description,
       url,
-      siteName: 'BRADAN MODA MASCULINA',
+      siteName: 'Bradan Moda Masculina',
       images: product.images.map(img => ({
         url: img,
-        alt: `${product.name} - BRADAN MODA MASCULINA`,
+        alt: `${product.name} - Bradan Moda Masculina`,
       })),
       type: 'article',
     },
     twitter: {
       card: 'summary_large_image',
-      title: `${product.name} | BRADAN MODA MASCULINA`,
+      title: `${product.name} | Bradan Moda Masculina`,
       description,
       images: [product.mainImage],
     },
@@ -84,7 +84,7 @@ export default async function ProductDetailPage({ params }: Props) {
     description: product.description,
     brand: {
       '@type': 'Brand',
-      name: product.brand || 'BRADAN MODA MASCULINA',
+      name: product.brand || 'Bradan Moda Masculina',
     },
     category: product.category,
     offers: {
@@ -96,7 +96,7 @@ export default async function ProductDetailPage({ params }: Props) {
       itemCondition: 'https://schema.org/NewCondition',
       seller: {
         '@type': 'ClothingStore',
-        name: 'BRADAN MODA MASCULINA',
+        name: 'Bradan Moda Masculina',
       },
     },
   };

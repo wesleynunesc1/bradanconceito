@@ -7,7 +7,7 @@ import { getStoreInfo } from '@/lib/catalog';
 export default function WhatsAppFloating() {
   const store = getStoreInfo();
   const text = encodeURIComponent(
-    'Olá! Gostaria de consultar modelos, tamanhos e valores do catálogo da BRADAN MODA MASCULINA.'
+    '👋 Olá! Gostaria de consultar modelos, tamanhos e valores do catálogo da Bradan Moda Masculina 👔🛍️'
   );
 
   return (

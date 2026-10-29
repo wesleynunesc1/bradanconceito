@@ -11,7 +11,6 @@ import {
   ShieldCheck,
   Truck,
   RotateCcw,
-  Sparkles,
 } from 'lucide-react';
 import { Product } from '@/types';
 import { useBag } from '@/context/BagContext';
@@ -73,7 +72,7 @@ export default function ProductView({ product }: ProductViewProps) {
         <div className="relative flex-1 aspect-[4/5] bg-[#140F0D] border border-[#D7A574]/20 overflow-hidden group">
           <Image
             src={product.images[selectedImage] || product.mainImage}
-            alt={`${product.name} foto ${selectedImage + 1} - ${product.category} BRADAN MODA MASCULINA`}
+            alt={`${product.name} foto ${selectedImage + 1} - ${product.category} Bradan Moda Masculina`}
             fill
             priority
             sizes="(max-width: 1024px) 100vw, 600px"

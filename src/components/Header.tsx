@@ -74,7 +74,7 @@ export default function Header() {
                 <div className="relative h-11 sm:h-14 w-44 sm:w-56 transition-transform duration-300 group-hover:scale-[1.02]">
                   <Image
                     src="/brand/bradan-logo.png"
-                    alt="BRADAN MODA MASCULINA"
+                    alt="Bradan Moda Masculina"
                     fill
                     priority
                     sizes="(max-width: 640px) 180px, 220px"
@@ -183,7 +183,7 @@ export default function Header() {
                 <div className="relative h-10 w-44">
                   <Image
                     src="/brand/bradan-logo.png"
-                    alt="BRADAN MODA MASCULINA"
+                    alt="Bradan Moda Masculina"
                     fill
                     className="object-contain object-left"
                   />
@@ -237,7 +237,7 @@ export default function Header() {
             <div className="pt-6 border-t border-[#D7A574]/15 text-xs text-[#9A928B] space-y-2">
               <p className="text-[#F6F3EE] font-medium text-xs">Atendimento Personalizado</p>
               <Link
-                href={`https://wa.me/${store.whatsapp}`}
+                href={`https://wa.me/${store.whatsapp}?text=${encodeURIComponent('👋 Olá! Gostaria de consultar informações sobre as peças do catálogo da Bradan Moda Masculina 👔')}`}
                 target="_blank"
                 className="inline-flex items-center text-[#D7A574] hover:underline space-x-1.5"
               >

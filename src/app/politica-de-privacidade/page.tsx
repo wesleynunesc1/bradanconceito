@@ -5,8 +5,8 @@ import { ArrowLeft, Shield } from 'lucide-react';
 import { getStoreInfo } from '@/lib/catalog';
 
 export const metadata: Metadata = {
-  title: 'Política de Privacidade | BRADAN MODA MASCULINA',
-  description: 'Política de privacidade e diretrizes de atendimento do catálogo digital BRADAN MODA MASCULINA.',
+  title: 'Política de Privacidade | Bradan Moda Masculina',
+  description: 'Política de privacidade e diretrizes de atendimento do catálogo digital Bradan Moda Masculina.',
   alternates: {
     canonical: 'https://bradanconceito.com.br/politica-de-privacidade',
   },
@@ -44,7 +44,7 @@ export default function PoliticaPrivacidadePage() {
             1. Apresentação e Finalidade do Catálogo
           </h2>
           <p>
-            O website da <strong>BRADAN MODA MASCULINA</strong> funciona primordialmente como um catálogo digital interativo de produtos de moda masculina e acessórios selecionados. Nosso objetivo é apresentar as peças disponíveis em nosso acervo com total fidelidade visual e facilitar o contato direto entre o cliente e nossa equipe de atendimento.
+            O website da <strong>Bradan Moda Masculina</strong> funciona primordialmente como um catálogo digital interativo de produtos de moda masculina e acessórios selecionados. Nosso objetivo é apresentar as peças disponíveis em nosso acervo com total fidelidade visual e facilitar o contato direto entre o cliente e nossa equipe de atendimento.
           </p>
         </section>
 
